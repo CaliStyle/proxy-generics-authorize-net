@@ -1,0 +1,45 @@
+{
+  "name": "proxy-generics-authorize-net",
+  "version": "0.0.0",
+  "description": "Proxy Generic Authorize.net",
+  "homepage": "https://cali-style.com",
+  "author": {
+    "name": "scott-wyatt",
+    "email": "scottwyatt86@gmail.com",
+    "url": "https://cali-style.com"
+  },
+  "main": "index.js",
+  "keywords": [
+    "proxy-engine",
+    "proxy-cart",
+    "proxy-generics",
+    "authorize-net",
+    "trailpack",
+    "trails",
+    "trailjs"
+  ],
+  "dependencies": {
+    "authorizenet": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.4",
+    "eslint-config-trails": "^2.0.0",
+    "lodash": "^4.11.1",
+    "mocha": "^2.4.5",
+    "smokesignals": "^2.0.0",
+    "supertest": "^2.0.1",
+    "trailpack-proxy-generics": "^0.0.16",
+    "trails": "^2.0.0"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "git@github.com:CaliStyle/proxy-generics-authorize-net.git",
+  "license": "MIT"
+}
